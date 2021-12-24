@@ -21,9 +21,6 @@ html {
 
 body {
     font-size: var(--principal-font-size);
-}
-
-.container {
     width: var(--width);
     height: 100vh;
     display: flex;
