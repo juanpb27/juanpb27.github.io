@@ -1,0 +1,52 @@
+:root {
+    --primary-color:black;
+    --secondary-color:white;
+    --principal-font-size:1.6rem;
+    --principal-font-color:white;
+    --button-color:purple;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: var(--principal-font-size);
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top {
+    background-color: var(--primary-color);
+    width: 100vw;
+    height: 10%;
+    padding: 0.3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.top-nav {
+    height: 2rem;
+}
+
+.top-nav li{
+    display: inline-block;
+    color: var(--principal-font-color);
+    padding: 0.3rem;
+    background-color: var(--button-color);
+    border-radius: 0.6rem;
+    border-style: outset;
+}
