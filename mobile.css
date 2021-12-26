@@ -1,12 +1,12 @@
 :root {
-    --primary-color:black;
-    --secondary-color:white;
-    --principal-font-size:1.6rem;
-    --principal-font-color:white;
-    --secondary-font-color:black;
-    --border-color:#C5B358;
-    --button-color: #b9b9b9e0;
+    --color1:black;
+    --color2:white;
+    --color3:#C5B358;
+    --color4: #b9b9b9e0;
+    --font-color1:white;
+    --font-color2:black;
     --width:100vw;
+    --font-size1:1.6rem;
 }
 
 * {
@@ -20,7 +20,7 @@ html {
 }
 
 body {
-    font-size: var(--principal-font-size);
+    font-size: var(--font-size1);
     width: var(--width);
     height: 100vh;
     display: flex;
@@ -28,7 +28,7 @@ body {
 }
 
 .top {
-    background-color: var(--primary-color);
+    background-color: var(--color1);
     width: var(--width);
     height: 10%;
     padding: 0.3rem;
@@ -45,7 +45,7 @@ body {
 
 .top-nav li{
     display: inline-block;
-    color: var(--principal-font-color);
+    color: var(--font-color1);
     font-weight: 600;
     padding: 0.3rem;
     background-color: var(--button-color);
@@ -56,7 +56,7 @@ body {
 }
 
 .principal {
-    background-color: var(--secondary-color);
+    background-color: var(--color2);
     width: var(--width);
     height: 80%;
     display: flex;
@@ -75,7 +75,7 @@ body {
     width: var(--width);
     height: 40vh;
     background-color: #94a1b2;
-    color: var(--secondary-font-color);
+    color: var(--font-color2);
     display: flex;
     flex-direction: column;
 }
@@ -115,7 +115,7 @@ body {
 }
 
 .bottom {
-    background-color: var(--primary-color);
+    background-color: var(--color1);
     width: var(--width);
     height: 10%;
     padding: 0.3rem;
