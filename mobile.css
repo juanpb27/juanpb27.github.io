@@ -23,6 +23,7 @@ html {
 
 body {
     font-size: var(--font-size1);
+    color: var(--font-color1);
     width: var(--width);
     height: 100vh;
     display: flex;
@@ -75,52 +76,50 @@ body {
     background-size: cover;
 }
 
-.main-down {
-    width: var(--width);
-    height: 50%;
-    color: var(--font-color1);
+.profile {
     display: flex;
     flex-direction: column;
-    background-image: url(./imgs/dev.jpeg);
-    background-size: cover;
+    justify-content: center;
+    align-items: center;
 }
 
-.main-down .title {
+.profile img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+}
+
+.profile .title {
     margin: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.main-down h1 {
+.title h1 {
     font-size: 2.5rem;
 }
 
-.main-down h2 {
+.title h2 {
     font-size: 2rem;
     color: var(--color4);
 }
 
+.main-down {
+    width: var(--width);
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    background-image: url(./imgs/dev.jpeg);
+    background-size: cover;
+}
+
 .main-down .personal-description {
     margin: 2rem;
-    border: 0.1rem solid white;
-    border-radius: 2rem;
-    background-color: var(--background-color);
 }
 
 .main-down .personal-description p {
     text-align: center;
-}
-
-.img-principal {
-    display: flex;
-    justify-content: center;
-}
-
-.img-principal img{
-    width: 20rem;
-    height: 20rem;
-    border-radius: 50%;
 }
 
 .bottom {
