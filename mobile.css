@@ -1,8 +1,9 @@
 :root {
-    --color1:#4C4556;
-    --color2:#A0D3F9;
-    --color3:#F6C026;
-    --color4: #872642;
+    --color1:black;
+    --color2:#FFFFFF;
+    --color3:#6A6A68;
+    --color4:#B7A85C;
+    --color5:#43442B;
     --font-color1:white;
     --font-color2:black;
     --width:100vw;
@@ -30,7 +31,7 @@ body {
 .top {
     background-color: var(--color1);
     width: var(--width);
-    height: 10%;
+    height: 8%;
     padding: 0.3rem;
     display: flex;
     flex-wrap: wrap;
@@ -45,11 +46,11 @@ body {
 
 .top-nav li{
     display: inline-block;
-    color: var(--font-color1);
+    color: var(--color1);
     font-weight: 600;
     padding: 0.3rem;
-    background-color: var(--button-color);
-    border-color: var(--border-color);
+    background-color: var(--color4);
+    border-color: var(--color5);
     border-radius: 0.6rem;
     border-width: 0.35rem;
     border-style: outset;
@@ -58,14 +59,14 @@ body {
 .principal {
     background-color: var(--color2);
     width: var(--width);
-    height: 80%;
+    height: 84%;
     display: flex;
     flex-direction: column;
 }
 
 .main-up {
     width: var(--width);
-    height: 40vh;
+    height: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,11 +74,12 @@ body {
 
 .main-down {
     width: var(--width);
-    height: 40vh;
-    background-color: #94a1b2;
-    color: var(--font-color2);
+    height: 50%;
+    color: var(--font-color1);
     display: flex;
     flex-direction: column;
+    background-image: url(./imgs/dev.jpeg);
+    background-size: cover;
 }
 
 .main-down .title {
@@ -93,6 +95,7 @@ body {
 
 .main-down h2 {
     font-size: 1.5rem;
+    color: var(--color4);
 }
 
 .main-down .personal-description {
@@ -117,7 +120,7 @@ body {
 .bottom {
     background-color: var(--color1);
     width: var(--width);
-    height: 10%;
+    height: 8%;
     padding: 0.3rem;
     display: flex;
     flex-wrap: wrap;
