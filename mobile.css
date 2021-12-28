@@ -4,10 +4,13 @@
     --color3:#6A6A68;
     --color4:#B7A85C;
     --color5:#43442B;
-    --background-color: rgba(206,206,206,0.3);
+    --background-color1: #1b1b1b71;;
+    --background-color2:#b7a85c2d;
     --font-color1:white;
     --font-color2:black;
-    --width:100vw;
+    --font-color3:#B7A85C;
+    --font-color4:#b6b587ea;
+    --width:100%;
     --font-size1:1.6rem;
 }
 
@@ -19,6 +22,7 @@
 
 html {
     font-size: 62.5%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body {
@@ -49,6 +53,7 @@ body {
 .top-nav li{
     display: inline-block;
     color: var(--color1);
+    font-size: 1.4rem;
     font-weight: 600;
     padding: 0.3rem;
     background-color: var(--color4);
@@ -81,28 +86,38 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--background-color1);
+    border: 0.1rem solid var(--background-color2);
+    border-radius: 3rem;
+    position: relative;
+    top: 3.5rem;
+    width: 25rem;
+    height: 30rem;
 }
 
 .profile img{
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
+    border: 0.3rem double var(--color4);
+    border-style:solid;
 }
 
 .profile .title {
-    margin: 2rem;
+    padding: 2rem;
     display: flex;
     flex-direction: column;
+    align-content:space-around;
     align-items: center;
 }
 
 .title h1 {
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 
 .title h2 {
-    font-size: 2rem;
-    color: var(--color4);
+    font-size: 1.8rem;
+    color: var(--font-color3);
 }
 
 .main-down {
@@ -110,16 +125,23 @@ body {
     height: 50%;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-image: url(./imgs/dev.jpeg);
     background-size: cover;
 }
 
 .main-down .personal-description {
     margin: 2rem;
+    display: flex;
 }
 
 .main-down .personal-description p {
     text-align: center;
+}
+
+.main-down .personal-description strong {
+    color: var(--font-color4);
 }
 
 .bottom {
