@@ -4,6 +4,7 @@
     --color3:#6A6A68;
     --color4:#B7A85C;
     --color5:#43442B;
+    --background-color: rgba(206,206,206,0.3);
     --font-color1:white;
     --font-color2:black;
     --width:100vw;
@@ -70,6 +71,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-image: url(./imgs/firstback.jpg);
+    background-size: cover;
 }
 
 .main-down {
@@ -83,23 +86,26 @@ body {
 }
 
 .main-down .title {
-    padding: 2rem;
+    margin: 2rem;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .main-down h1 {
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 .main-down h2 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     color: var(--color4);
 }
 
 .main-down .personal-description {
-    padding: 2rem;
+    margin: 2rem;
+    border: 0.1rem solid white;
+    border-radius: 2rem;
+    background-color: var(--background-color);
 }
 
 .main-down .personal-description p {
