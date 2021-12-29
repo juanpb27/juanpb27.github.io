@@ -98,7 +98,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./imgs/backgrounds/firstback.jpg);
+    background-image: url(../imgs/backgrounds/firstback.jpg);
     background-size: cover;
 }
 
@@ -149,7 +149,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(./imgs/backgrounds/dev.jpeg);
+    background-image: url(../imgs/backgrounds/dev.jpeg);
     background-size: cover;
 }
 
