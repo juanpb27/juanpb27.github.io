@@ -38,7 +38,6 @@ body {
     background-color: var(--color1);
     width: var(--width);
     height: 8%;
-    padding: 0.3rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -48,6 +47,8 @@ body {
 .top .logo {
     width: 3.5rem;
     height: 3.5rem;
+    position: relative;
+    left: 0.5rem;
 }
 
 .top-nav li{
@@ -77,7 +78,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./imgs/firstback.jpg);
+    background-image: url(./imgs/backgrounds/firstback.jpg);
     background-size: cover;
 }
 
@@ -99,8 +100,7 @@ body {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    border: 0.3rem double var(--color4);
-    border-style:solid;
+    border: 0.3rem solid var(--color4);
 }
 
 .profile .title {
@@ -127,13 +127,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-image: url(./imgs/dev.jpeg);
+    background-image: url(./imgs/backgrounds/dev.jpeg);
     background-size: cover;
 }
 
 .main-down .personal-description {
     margin: 2rem;
-    display: flex;
+    position: relative;
+    top: 1rem;
 }
 
 .main-down .personal-description p {
@@ -148,8 +149,26 @@ body {
     background-color: var(--color1);
     width: var(--width);
     height: 8%;
-    padding: 0.3rem;
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 }
+
+.social {
+    display: flex;
+}
+
+.social img {
+    background-color: var(--color2);
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem;
+}
+
+/* .social .linkedin {
+    border-color: white;
+    height: 3rem;
+    width: 3rem;
+
+} */
