@@ -6,6 +6,7 @@
     --color5:#43442B;
     --background-color1: #1b1b1b71;;
     --background-color2:#b7a85c2d;
+    --background-color3:#b7a85c88;
     --font-color1:white;
     --font-color2:black;
     --font-color3:#B7A85C;
@@ -58,10 +59,14 @@ body {
     font-weight: 600;
     padding: 0.3rem;
     background-color: var(--color4);
-    border-color: var(--color5);
+    border: 0.35rem outset var(--color5);
     border-radius: 0.6rem;
-    border-width: 0.35rem;
-    border-style: outset;
+}
+
+.top-nav li:hover {
+    background-color: var(--color3);
+    color: var(--font-color1);
+    cursor: pointer;
 }
 
 .principal {
@@ -160,15 +165,14 @@ body {
 }
 
 .social img {
-    background-color: var(--color2);
+    background-color: var(--background-color3);
     width: 3rem;
     height: 3rem;
-    margin: 1rem;
+    margin: 0 1rem;
+    border-radius: 50%;
+    border: 0.3rem solid var(--color4);
 }
 
-/* .social .linkedin {
-    border-color: white;
-    height: 3rem;
-    width: 3rem;
-
-} */
+.social img:hover {
+    background-color: white;
+}
