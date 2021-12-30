@@ -234,6 +234,7 @@ body {
 .about-info{
     background-color: green;
     border-radius: 2rem;
+    text-align: center;
 }
 /* .about-info li {
     list-style: none;
@@ -254,6 +255,42 @@ body {
 .about2 {
     background-color: black;
     height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about2 .pub-container {
+    width: 27rem;
+    background-color: red;
+    border-radius: 5rem;
+}
+.about2 .about-publicaciones {
+    background-color: green;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.about2 .dist-container {
+    width: 14rem;
+    background-color: blue;
+    border-radius: 5rem;
+}
+.about2 .about-distinciones {
+    background-color:blueviolet;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.experience h1 {
+    color: var(--font-color3);
+    margin: 0 auto;
+    font-size: 4rem;
+}
+.experience h2{
+    color: var(--font-color2);
+    font-size: 1.9rem;
+    text-align: center;
 }
 
 .experience {
