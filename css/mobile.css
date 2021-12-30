@@ -87,7 +87,7 @@ body {
     color: var(--font-color1);
 }
 
-.principal {
+.home {
     background-color: var(--color2);
     width: var(--width);
     height: 66rem;
@@ -198,4 +198,28 @@ body {
 
 .social img:hover {
     background-color: white;
+}
+
+.about {
+    background-color: gray;
+    width: var(--width);
+    height: 66rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.experience {
+    background-color: aquamarine;
+    width: var(--width);
+    height: 66rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio {
+    background-color:coral;
+    width: var(--width);
+    height: 66rem;
+    display: flex;
+    flex-direction: column;
 }
