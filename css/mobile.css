@@ -227,9 +227,28 @@ body {
 }
 .about1 .info-container{
     width: 23rem;
-    display: inline;
     background-color: red;
     border-radius: 5rem;
+}
+
+.about-info{
+    background-color: green;
+    border-radius: 2rem;
+}
+/* .about-info li {
+    list-style: none;
+} */
+
+.about .prof-container {
+    width: 24rem;
+    background-color: blue;
+    border-radius: 5rem;
+}
+
+.about-profesional {
+    background-color:blueviolet;
+    border-radius: 2rem;
+    text-align: center;
 }
 
 .about2 {
