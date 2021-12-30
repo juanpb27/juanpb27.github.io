@@ -90,7 +90,7 @@ body {
 .principal {
     background-color: var(--color2);
     width: var(--width);
-    height: 61rem;
+    height: 66rem;
     display: flex;
     flex-direction: column;
 }
@@ -123,17 +123,18 @@ body {
     width: 15rem;
     height: 15rem;
     position: relative;
-    top: 1rem;
+    top: -1rem;
     border-radius: 50%;
     border: 0.3rem solid var(--color4);
 }
 
 .profile .title {
-    padding: 2rem 0;
     display: flex;
     flex-direction: column;
     align-content:space-around;
     align-items: center;
+    position: relative;
+    top:1.2rem;
 }
 
 .title h1 {
