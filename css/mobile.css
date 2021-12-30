@@ -231,22 +231,19 @@ body {
     border-radius: 5rem;
 }
 
-.about-info{
+.about1 .about-info{
     background-color: green;
     border-radius: 2rem;
     text-align: center;
 }
-/* .about-info li {
-    list-style: none;
-} */
 
-.about .prof-container {
+.about1 .prof-container {
     width: 24rem;
     background-color: blue;
     border-radius: 5rem;
 }
 
-.about-profesional {
+.about1 .about-profesional {
     background-color:blueviolet;
     border-radius: 2rem;
     text-align: center;
@@ -282,6 +279,12 @@ body {
     text-align: center;
 }
 
+.experience {
+    width: var(--width);
+    display: flex;
+    flex-direction: column;
+}
+
 .experience h1 {
     color: var(--font-color3);
     margin: 0 auto;
@@ -293,20 +296,68 @@ body {
     text-align: center;
 }
 
-.experience {
-    width: var(--width);
-    display: flex;
-    flex-direction: column;
-}
-
 .experience1 {
     background-color: aquamarine;
     height: 66rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience1 .cargos-container{
+    width: 20rem;
+    background-color: red;
+    border-radius: 5rem;
+}
+
+.experience1 .experience-cargos{
+    background-color: green;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.experience1 .cursos-container {
+    width: 10rem;
+    background-color: blue;
+    border-radius: 5rem;
+}
+
+.experience1 .experience-cursos {
+    background-color:blueviolet;
+    border-radius: 2rem;
+    text-align: center;
 }
 
 .experience2 {
     background-color: black;
     height: 66rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.experience2 .sem-container{
+    width: 26rem;
+    background-color: red;
+    border-radius: 5rem;
+}
+
+.experience2 .experience-sem{
+    background-color: green;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.experience2 .hab-container {
+    width: 30rem;
+    background-color: blue;
+    border-radius: 5rem;
+}
+
+.experience2 .experience-hab {
+    background-color:blueviolet;
+    border-radius: 2rem;
+    text-align: center;
 }
 
 .portfolio {
@@ -315,4 +366,40 @@ body {
     height: 66rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.portfolio h1 {
+    color: var(--font-color3);
+    margin: 0 auto;
+    font-size: 4rem;
+}
+.portfolio h2{
+    color: var(--font-color2);
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.portfolio .coin-container{
+    width: 15rem;
+    background-color: red;
+    border-radius: 5rem;
+}
+
+.portfolio .coincounter {
+    background-color: green;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.portfolio .mill-container {
+    width: 29rem;
+    background-color: blue;
+    border-radius: 5rem;
+}
+
+.portfolio .millonario {
+    background-color:blueviolet;
+    border-radius: 2rem;
+    text-align: center;
 }
