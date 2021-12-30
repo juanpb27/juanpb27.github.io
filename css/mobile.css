@@ -52,7 +52,7 @@ body {
 }
 
 .top-nav {
-    margin: 0.3rem;
+    margin: 0.6rem;
 }
 
 .top-nav li{
@@ -90,7 +90,7 @@ body {
 .principal {
     background-color: var(--color2);
     width: var(--width);
-    height: 55rem;
+    height: 61rem;
     display: flex;
     flex-direction: column;
 }
@@ -114,7 +114,7 @@ body {
     border: 0.1rem solid var(--background-color2);
     border-radius: 3rem;
     position: relative;
-    top: 5rem;
+    top: 6.5rem;
     width: 25rem;
     height: 35rem;
 }
@@ -122,12 +122,14 @@ body {
 .profile img{
     width: 15rem;
     height: 15rem;
+    position: relative;
+    top: 1rem;
     border-radius: 50%;
     border: 0.3rem solid var(--color4);
 }
 
 .profile .title {
-    padding: 1rem;
+    padding: 2rem 0;
     display: flex;
     flex-direction: column;
     align-content:space-around;
@@ -140,7 +142,6 @@ body {
 }
 
 .title h2 {
-    margin: 0.5rem 0;
     font-size: 1.9rem;
     color: var(--font-color3);
 }
