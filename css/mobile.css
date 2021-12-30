@@ -30,7 +30,6 @@ body {
     font-size: var(--font-size1);
     color: var(--font-color1);
     width: var(--width);
-    height: 100vh;
     display: flex;
     flex-wrap: wrap;
 }
@@ -38,7 +37,7 @@ body {
 .top {
     background-color: var(--color1);
     width: var(--width);
-    height: 8%;
+    height: 4.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -50,6 +49,10 @@ body {
     height: 3.5rem;
     position: relative;
     left: 0.5rem;
+}
+
+.top-nav {
+    margin: 0.3rem;
 }
 
 .top-nav li{
@@ -87,7 +90,7 @@ body {
 .principal {
     background-color: var(--color2);
     width: var(--width);
-    height: 84%;
+    height: 55rem;
     display: flex;
     flex-direction: column;
 }
@@ -165,13 +168,13 @@ body {
 }
 
 .home2 .personal-description strong {
-    color: var(--font-color4);
+    color: var(--font-color3);
 }
 
 .bottom {
     background-color: var(--color1);
     width: var(--width);
-    height: 8%;
+    height: 4.5rem;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
