@@ -202,18 +202,39 @@ body {
 
 .about {
     width: var(--width);
+    height: 132rem;
     display: flex;
     flex-direction: column;
 }
 
+.about h1 {
+    color: var(--font-color3);
+    margin: 0 auto;
+    font-size: 4rem;
+}
+.about h2{
+    color: var(--font-color2);
+    font-size: 1.9rem;
+    text-align: center;
+}
+
 .about1 {
     background-color: gray;
-    height: 66rem;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about1 .info-container{
+    width: 23rem;
+    display: inline;
+    background-color: red;
+    border-radius: 5rem;
 }
 
 .about2 {
     background-color: black;
-    height: 66rem;
+    height: 50%;
 }
 
 .experience {
