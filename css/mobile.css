@@ -201,19 +201,35 @@ body {
 }
 
 .about {
-    background-color: gray;
     width: var(--width);
-    height: 66rem;
     display: flex;
     flex-direction: column;
 }
 
-.experience {
-    background-color: aquamarine;
-    width: var(--width);
+.about1 {
+    background-color: gray;
     height: 66rem;
+}
+
+.about2 {
+    background-color: black;
+    height: 66rem;
+}
+
+.experience {
+    width: var(--width);
     display: flex;
     flex-direction: column;
+}
+
+.experience1 {
+    background-color: aquamarine;
+    height: 66rem;
+}
+
+.experience2 {
+    background-color: black;
+    height: 66rem;
 }
 
 .portfolio {
