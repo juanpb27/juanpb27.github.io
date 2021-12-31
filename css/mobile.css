@@ -245,7 +245,7 @@ body {
 
 .about1 .about-info{
     width: 35rem;
-    height: 15rem;
+    height: 18rem;
     background-color: var(--background-color1);
     border-radius: 2rem;
     text-align: center;
@@ -262,14 +262,22 @@ body {
     left: 6rem;
 }
 
+.about .prof-container ul,li {
+    font-size:1.8rem;
+}
+
+.about .prof-container li,p,ul {
+    margin: 0.5rem;
+}
+
 .about1 .about-profesional {
     width: 35rem;
-    height: 25rem;
+    height: 30rem;
     background-color: var(--background-color1);
     border-radius: 2rem;
     text-align: center;
     position: relative;
-    top: 14rem;
+    top: 10rem;
 }
 
 .about2 {
