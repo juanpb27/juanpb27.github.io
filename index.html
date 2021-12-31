@@ -8,13 +8,13 @@
     <link rel="stylesheet" href="./css/mobile.css">
 </head>
 <body>
-    <header class="top">
+    <header id="header" class="top">
         <figure>
             <img class="logo" src="./imgs/logos/logo.jpg" alt="Logo" srcset="">
         </figure>
         <nav class="top-nav">
             <ul class="top-ul">
-                <li class="home-button"><a href="#home">Home</a></li>
+                <li class="home-button"><a href="#header">Home</a></li>
                 <li class="about-button"><a href="#about">About</a></li>
                 <li class="experience-button"><a href="#experience">Experience</a></li>
                 <li class="portfolio-button"><a href="#portfolio">Portfolio</a></li>
@@ -39,22 +39,24 @@
             </section>
         </div>
         <div class="about">
-            <h1>Acerca de mí</h1>
             <section class="about1">
-                <div class="info-container">
-                    <h2>Información Personal</h2>
-                </div>
+                <span id="about" class="about-title">
+                    <h1>Acerca de mí</h1>
+                </span>
                 <article class="about-info">
+                    <div class="info-container">
+                        <h2>Información Personal</h2>
+                    </div>
                     <ul>
                         <li><strong>Mi nombre: </strong>Juan Camilo Peña Bermúdez</li>
                         <li><strong>Mi cumpleaños: </strong>Julio 27</li>
                         <li><strong>Residencia: </strong>Cartagena, Colombia</li>
                     </ul>
                 </article>
-                <div class="prof-container">
-                    <h2>Formación Profesional</h2>
-                </div>
                 <article class="about-profesional">
+                    <div class="prof-container">
+                        <h2>Formación Profesional</h2>
+                    </div>
                     <ul>
                         <li><strong>Universidad: </strong>Universidad Tecnológica de Bolívar</li>
                         <li><strong>Programa: </strong>Ingeniería Mecatrónica</li>
@@ -89,8 +91,10 @@
             </section>
         </div>
         <div class="experience">
-            <h1>Mi Experiencia</h1>
             <section class="experience1">
+                <span id="experience" class="experience-title">
+                    <h1>Experiencia</h1>
+                </span>
                 <div class="cargos-container">
                     <h2>Cargos Ocupados</h2>
                 </div>
@@ -128,7 +132,9 @@
             </section>
         </div>
         <div class="portfolio">
-            <h1>Mi Portafolio</h1>
+            <span id="portfolio" class="portfolio-title">
+                <h1>Portafolio</h1>
+            </span>
             <div class="coin-container">
                 <h2>Coin Counter</h2>
             </div>

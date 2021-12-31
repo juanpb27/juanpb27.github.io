@@ -7,6 +7,7 @@
     --background-color1: #1b1b1b71;;
     --background-color2:#b7a85c2d;
     --background-color3:#b7a85c88;
+    --background-color4:rgba(128, 128, 128, 0.35);
     --font-color1:white;
     --font-color2:black;
     --font-color3:#B7A85C;
@@ -88,11 +89,8 @@ body {
 }
 
 .home {
-    background-color: var(--color2);
     width: var(--width);
     height: 66rem;
-    display: flex;
-    flex-direction: column;
 }
 
 .home1 {
@@ -203,13 +201,19 @@ body {
 .about {
     width: var(--width);
     height: 132rem;
-    display: flex;
-    flex-direction: column;
+}
+.about ul{
+    list-style: none;
+}
+
+.about .about-title {
+    background: linear-gradient(135deg, var(--background-color4)30%, var(--background-color3)100%);
+    width: var(--width);
+    text-align: center;
 }
 
 .about h1 {
     color: var(--font-color3);
-    margin: 0 auto;
     font-size: 4rem;
 }
 .about h2{
@@ -218,8 +222,13 @@ body {
     text-align: center;
 }
 
+.about strong {
+    color: var(--font-color3);
+}
+
 .about1 {
-    background-color: gray;
+    background: linear-gradient(135deg, black 0%, white 250%);
+    /* background-color: black; */
     height: 50%;
     display: flex;
     flex-direction: column;
@@ -227,30 +236,44 @@ body {
 }
 .about1 .info-container{
     width: 23rem;
-    background-color: red;
+    background-color: var(--font-color3);
     border-radius: 5rem;
+    position: relative;
+    top: -1rem;
+    left: 6rem;
 }
 
 .about1 .about-info{
-    background-color: green;
+    width: 35rem;
+    height: 15rem;
+    background-color: var(--background-color1);
     border-radius: 2rem;
     text-align: center;
+    position: relative;
+    top: 8rem;
 }
 
 .about1 .prof-container {
     width: 24rem;
-    background-color: blue;
+    background-color: var(--font-color3);
     border-radius: 5rem;
+    position: relative;
+    top: -1rem;
+    left: 6rem;
 }
 
 .about1 .about-profesional {
-    background-color:blueviolet;
+    width: 35rem;
+    height: 25rem;
+    background-color: var(--background-color1);
     border-radius: 2rem;
     text-align: center;
+    position: relative;
+    top: 14rem;
 }
 
 .about2 {
-    background-color: black;
+    background-color: gray;
     height: 50%;
     display: flex;
     flex-direction: column;
@@ -285,6 +308,12 @@ body {
     flex-direction: column;
 }
 
+.experience .experience-title {
+    background: linear-gradient(135deg, var(--background-color4) 30%, var(--background-color3)100%);
+    width: var(--width);
+    text-align: center;
+}
+
 .experience h1 {
     color: var(--font-color3);
     margin: 0 auto;
@@ -297,7 +326,7 @@ body {
 }
 
 .experience1 {
-    background-color: aquamarine;
+    background-color: black;
     height: 66rem;
     display: flex;
     flex-direction: column;
@@ -329,7 +358,7 @@ body {
 }
 
 .experience2 {
-    background-color: black;
+    background-color: aquamarine;
     height: 66rem;
     display: flex;
     flex-direction: column;
@@ -361,12 +390,18 @@ body {
 }
 
 .portfolio {
-    background-color:coral;
+    background-color:black;
     width: var(--width);
     height: 66rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.portfolio .portfolio-title {
+    background: linear-gradient(135deg, var(--background-color4)30%, var(--background-color3)100%);
+    width: var(--width);
+    text-align: center;
 }
 
 .portfolio h1 {
